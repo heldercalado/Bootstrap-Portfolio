@@ -7,6 +7,8 @@
 .maincontainer {
     background-color: lightgrey;
     width: 100%;
+    border: 2px solid black;
+    overflow: auto;
 
 }
 .about_header{
@@ -14,9 +16,21 @@
     padding: 20px;
     border-bottom: 2px solid grey;
     margin: auto;
+    margin-bottom: 20px;
     
 }
 .about_header h1{
     color: teal;
     font-size: 35px;
+}
+
+.about_image {
+    float: left;
+    height: 200px;
+    width: 200px;
+    padding: 0 5px 5px 5px;
+}
+.maincontainer p {
+    
+    text-align: justify;
 }
