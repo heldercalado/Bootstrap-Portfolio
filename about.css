@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.maincontainer {
+    background-color: lightgrey;
+    width: 100%;
+
+}
+.about_header{
+    width: 80%;
+    padding: 20px;
+    border-bottom: 2px solid grey;
+    margin: auto;
+    
+}
+.about_header h1{
+    color: teal;
+    font-size: 35px;
+}
