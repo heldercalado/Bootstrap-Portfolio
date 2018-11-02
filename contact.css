@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.contact_main_container {
+    background-color: white;
+    width: 100%;
+    /* border: 2px solid black; */
+    overflow: auto;
+
+}
+.contact_header{
+    width: 80%;
+    padding: 20px 20px 20px 0px;
+    border-bottom: 2px solid grey;
+    margin: auto;
+    margin-bottom: 20px;
+    
+}
+.contact_header h1{
+    color: teal;
+    font-size: 35px;
+}
+
+
+.contact_main_container p {
+    
+    margin-left: 0 px;
+    width: 100%;
+    text-align: justify;
+}
+.contact_body{
+    width: 80%;
+    padding: 0;
+    margin: auto;
+    
+    margin-bottom: 20px;
+    
+}

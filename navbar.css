@@ -8,10 +8,11 @@
     border-bottom: 2px solid grey;
     overflow: auto;
     background-color: white;
+    
 }
 .navbar ul {
     list-style-type: none;
-    margin: 0;
+    margin-bottom: 20px;
     padding: 0;
     width: 100%;
     background-color: white;
@@ -23,6 +24,7 @@
 }
 .leftnavbar {
     float: left;
+    margin-left: 10%;
 }
 .rightnavbar {
     float: right;
