@@ -1,0 +1,151 @@
+footer {
+    padding: 30px 0;
+    clear: both;
+    font-size: 12px;
+    color: #ffffff;
+    color: #cccccc;
+    text-align: center;
+    background: #666666;
+    border-top: 8px solid #4aaaa5;
+    height: 50px;
+}
+
+.container {
+    background-image: url('../images/concrete_seamless.png');
+    widows: 960px;
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
+}
+#main-container {
+    padding-top: 130px;
+    
+  }
+  
+  .main-section {
+    float: left;
+    width: 100%;
+    max-width: 960px;
+    padding: 30px;
+    margin: 0 0 40px;
+    background: #ffffff;
+    border: 1px solid #dddddd;
+  }
+  
+  .main-section p {
+    margin-top: 10px;
+  }
+  
+.logo-id {
+    
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 90px;
+    color: white !important;
+    margin: 0 ;
+     padding: 5px;
+    background: #4aaaa5;
+    text-align: center;
+   
+}
+
+
+
+.nav-buttons {
+
+    float: right;
+    margin-top: 25px;
+    padding-right: 15px;
+
+}
+
+
+
+
+
+.body-header{
+    padding-bottom: 20px;
+  font-size: 30px;
+  line-height: 49px;
+  border-bottom: 3px solid #dddddd;
+  color: #4aaaa5;
+  margin-bottom: 10px;
+
+}
+.thumbnail {
+    position: relative;
+    float: left;
+    margin-bottom: 20px;
+    width: 350px;
+    margin-right: 5px;
+}
+
+.caption {
+    position: absolute;
+    top: 85%;
+    left: 0;
+    width: 100%;
+    background: #4aaaa5;
+    color: white;
+}
+.auth-image {
+    float: left;
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 25px;
+  }
+.btn-bg-color{
+   background-color:  #4aaaa5;
+   border: none;
+
+}
+
+@media only screen and (max-width: 640px) {
+
+    /* For mobile phones: */
+    .thumbnail {
+        
+        width: 100%;
+    }
+  
+
+}
+@media only screen and (max-width: 768px) {
+
+    /* For mobile tablets: */
+    
+    .auth-image {
+        width: 100%;
+    }
+    .nav-buttons {
+        margin: 0 15% 0 5% ;
+        
+    }
+    
+    #main-container {
+        padding-top: 10px;
+        height: auto;
+      }
+      .main-section p {
+        margin-top: 25px;
+        margin-left: 5px
+      }
+      .logo-id {
+        width: 100%;
+    }
+   
+    .thumbnail {
+        
+        width: 100%;
+    }
+    
+    .auth-image {
+       
+        width: 100%;
+        
+      }
+
+}

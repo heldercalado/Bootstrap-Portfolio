@@ -5,77 +5,100 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./navbar.css">
-    <link rel="stylesheet" href="./main.css">
-    <link rel="stylesheet" href="./portfolio.css">
+    <title>Portfolio | Helder Calado</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
 
-    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="./style/main.css">
 </head>
 
 <body>
     <div class="container">
-        <nav class="navbar">
-            <ul>
-                <li class="leftnavbar active"><a href="">Helder Calado</a></li>
-                <li class="rightnavbar"><a href="contact.html">Contact</a></li>
-                <li class="rightnavbar active"><a href="portfolio.html">Portfolio</a></li>
-                <li class="rightnavbar"><a href="index.html">About</a></li>
-            </ul>
-        </nav>
-        <div class="portfolio_main_container">
-            <div class="portfolio_header">
-                <h1>Portfolio</h1>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand logo-id" href="#">Helder Calado</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav navbar-right ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+
+
+                </ul>
 
             </div>
-            <!-- add a div here!!! -->
-            <!-- <div class="clear"></div> -->
-            <div class="portfolio_body">
-                <div class="mini_container">
-                    <img class="portfolio_image" src="./stefen-tan-753797-unsplash.jpg" alt="">
-
-                    <div class="description ">
-                        <h2>Teste</h2>
+        </nav>
+        <div id="main-container">
+            <section class="main-section">
+                <div class="row">
+                    <div class="col-md-12 body-header">
+                        <h1>Portfolio</h1>
                     </div>
                 </div>
-                <div class="mini_container">
-                    <img class="portfolio_image" src="./anete-lusina-609857-unsplash.jpg" alt="">
 
-                    <div class="description ">
-                        <h2>Teste</h2>
+                <div class="thumbnail text-center">
+                    <img src="./images/technics-q-c-640-480-1.jpg" class=" img-fluid rounded" alt="Responsive image">
+                    <div class="caption">
+                        <h3>Word Guess</h3>
                     </div>
                 </div>
-                <div class="mini_container">
-                    <img class="portfolio_image" src="./burst-521042-unsplash.jpg" alt="">
 
-                    <div class="description ">
-                        <h2>Teste</h2>
+                <div class="thumbnail text-center">
+
+                    <img src="./images/technics-q-c-640-480-2.jpg" class="img-fluid rounded" alt="RPG Game">
+                    <div class="caption">
+                        <h3>RPG Game</h3>
                     </div>
                 </div>
-                <div class="mini_container">
-                    <img class="portfolio_image" src="./clement-h-544786-unsplash.jpg" alt="">
 
-                    <div class="description ">
-                        <h2>Teste</h2>
-                    </div>
-                </div>
-                <div class="mini_container">
-                    <img class="portfolio_image" src="./new-data-services-746335-unsplash.jpg" alt="">
+        
+        <div class="thumbnail text-center">
 
-                    <div class="description ">
-                        <h2>Teste</h2>
-                    </div>
-                </div>
-                <div class="mini_container">
-                    <img class="portfolio_image" src="./rawpixel-561415-unsplash.jpg" alt="">
+            <img src="./images/technics-q-c-640-480-5.jpg" class="img-fluid" alt="Trivia Game">
+            <div class="caption">
+                <h3>RPG Game</h3>
+            </div>
+        </div>
+        <div class="thumbnail text-center">
 
-                    <div class="description ">
-                        <h2>Teste</h2>
-                    </div>
-                </div>
+            <img src="./images/technics-q-c-640-480-7.jpg" class="img-fluid" alt="Rutgers Info Widget">
+
+            <div class="caption">
+                <h3>RPG Game</h3>
+            </div>
+        </div>
+        <div class="thumbnail text-center">
+            <img src="./images/technics-q-c-640-480-9.jpg" class="img-fluid" alt="Rock Paper Scissors">
+
+            <div class="caption">
+                <h3>RPG Game</h3>
             </div>
         </div>
 
+        </section>
+        </div>
+
+        <footer>
+
+            Copyright &copy;
+
+        </footer>
     </div>
 
 </body>
